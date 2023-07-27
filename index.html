@@ -25,18 +25,51 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>TEEEEEEEEESTING</p>
+  <!-- Header -->
+  <header>
+    <h1 id="name">Michael Monaghan</h1>
+    <nav>
+      <ul>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Projects</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <img src="./img/mikefiancee.jpg">
+    <p>Hi, I’m Mike.<br>
+      <!-- TODO Update about with links to companies and neighborhood -->
+      I was a Technical Recruiter and Manager for many years. I worked for <a href="">Etsy</a>, <a href="">InterviewJet</a>, <a href="">Blue Apron</a>, and <a href="">Datadog</a>.<br>
+      Now I’m learning to design and build my own apps & software.<br>
+      I live in the <a href="">Red Hook</a> neighborhood of New York City with my fiancee and 2 cats.<br>
+      </p>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+
+
+  </footer>
+
+  <!-- Scripts -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T7LP9DDWZ"></script>
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3T7LP9DDWZ');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
 </body>
 
 </html>
