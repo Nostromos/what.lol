@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Michael Monaghan -- Owner & Author
 
 # THANKS
 
-    <name>
+    HTML5 Boilerplate Crew
+    Codecademy
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Javascript
