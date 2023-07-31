@@ -24,6 +24,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
+    color: #1A3259;
 }
 
 header {
@@ -31,12 +32,55 @@ header {
     align-items: center;
 }
 
+h1 {
+    margin-left: 25px;
+}
+
 #name {
     font-family: 'Lumanosimo', cursive;
     color: #18709E;
 }
 
+nav ul {
+    padding: 0;
+    margin: 25px;
+}
 nav li {
     display: inline-flex;
-    padding-left: 20px;
+    margin-right: 10px
+}
+
+main {
+    display: flex;
+}
+
+main p {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+img {
+    margin-left: 25px;
+    width: 355px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    color: #2CA0AB;
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
 }
