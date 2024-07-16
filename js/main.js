@@ -1,4 +1,4 @@
-const api_url = 'https://api.github.com/users/nsotromos/repos';
+const api_url = 'https://api.github.com/users/nostromos/repos';
 
 async function getRepos () {
     let rawResponse = await fetch(api_url);
