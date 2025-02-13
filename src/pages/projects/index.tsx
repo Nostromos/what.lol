@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -9,12 +8,11 @@ import { ProjectCard } from "@site/src/components/ProjectCard/ProjectCard"
 import styles from "./styles.module.css"
 
 export default function Projects(): ReactNode {
-  const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout
       title={'Projects'}
-      description="Projects page"
+      description="Page containing filtered list of projects and work"
     >
       <main>
         <div className={styles.container}>

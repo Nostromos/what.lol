@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Michael Monaghan',
+      title: 'MM',
       logo: {
         alt: 'Black cat with curly tail looking suspicious',
         src: 'img/logo.svg',
