@@ -20,6 +20,7 @@ import styles from "./styles.module.css"
 const cards: ProjectCardProps[] = [
   {
     image: require("@site/static/img/tifco.vercel.app_.png").default, // useBaseUrl() is a runtime hook and for some reason wouldn't work here. My theory is that its something to do with webpack and require() sidesteps that weirdness. 
+    // TODO: Figure out why useBaseUrl() breaks where require() works. Possibly to do with webpack.
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "zod", "Vercel", "Node"],
     name: "TifCo",
     status: "Completed" as const, // `as const` so ts doesn't take it as string
