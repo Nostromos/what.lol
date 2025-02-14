@@ -1,13 +1,47 @@
-import type { ReactNode } from 'react';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import { useState, useMemo, type ReactNode } from 'react';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 
 import { ProjectCard } from "@site/src/components/ProjectCard/ProjectCard"
 
 import styles from "./styles.module.css"
 
-export default function Projects(): ReactNode {
+const cards = [{
+    image: require("@site/static/img/tifco.vercel.app_.png").default,
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "zod", "Vercel", "Node"],
+    name: "TifCo",
+    status: "Completed" as const,
+    description: "A NextJS dashboarding app with dashboards, forms, auth, and other fun stuff too.",
+  },
+  {
+    image: require("@site/static/img/ggob.vercel.app_applications(Desktop (Small)) (2).png").default,
+    tags: ["Typescript", "Next.js", "React Hook Form", "Tailwind", "zod", "Vercel", "Prisma", "Postgres"],
+    name: "ggob",
+    status: "Completed" as const,
+    description: "Job Application tracker using Next, Tailwind, Prisma, and forms.",
+  },
+]
+
+export default function ProjectsPage(): ReactNode {
+  const [selectedTags, setSelectedTags] = useState<string[]>([])
+
+  const allTags = useMemo(() => {
+    const tagSet = new Set<string>()
+    cards.forEach((card) => card.tags.forEach((tag) => tagSet.add(tag)))
+    return Array.from(tagSet)
+  }, []);
+
+  const filteredCards = useMemo(() => {
+    if (selectedTags.length === 0) return cards
+    return cards.filter((card) => card.tags.some((tag) => selectedTags.includes(tag)))
+  }, [selectedTags]);
+
+  const toggleTag = (tag: string) => {
+    setSelectedTags((prev) => (
+      prev.includes(tag) ?
+      prev.filter((t) => t !== tag) :
+      [...prev, tag]
+    ));
+  }
 
   return (
     <Layout
@@ -16,80 +50,24 @@ export default function Projects(): ReactNode {
     >
       <main>
         <div className={styles.container}>
-          <h1 className={styles.title}>Work & Projects</h1>
+          <h1 className={styles.title}>Projects & Work Products</h1>
+          <div className={styles.filterContainer}>
+            {allTags.map((tag) => (
+              <button
+                key={tag}
+                className={`${styles.filterButton} ${selectedTags.includes(tag) ?
+                  styles.filterButtonActive :
+                  ""}`}
+                onClick={() => toggleTag(tag)}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
           <div className={styles.cardGrid}>
-            <Link
-              to="/docs/intro"
-            >
-              <ProjectCard
-                image={useBaseUrl("/img/tifco.vercel.app_.png")}
-                tags={["React", "TypeScript", "Next.js", "Tailwind", "zod", "Vercel", "Node"]}
-                name="TifCo"
-                status="Completed"
-                description="A NextJS dashboarding app with dashboards, forms, auth, and other fun stuff too."
-              />
-            </Link>
-            <ProjectCard
-              image={useBaseUrl("/img/placeholder.png")}
-              tags={["Node.js", "Express"]}
-              name="Backend Service"
-              status="In Progress"
-              description="Scalable backend service built with Node.js and Express."
-            />
-            <ProjectCard
-              image={useBaseUrl("/img/placeholder.png")}
-              tags={["Vue", "Vuex"]}
-              name="Dashboard UI"
-              status="Ideation"
-              description="Admin dashboard interface developed using Vue.js and Vuex."
-            />
-            <Link
-              to="/docs/intro"
-            >
-              <ProjectCard
-                image={useBaseUrl("/img/placeholder.png")}
-                tags={["React", "TypeScript"]}
-                name="Project Alpha"
-                status="Abandoned"
-                description="A cutting-edge React application with TypeScript integration."
-              />
-            </Link>
-            <Link
-              to="/docs/intro"
-            >
-              <ProjectCard
-                image={useBaseUrl("/img/tifco.vercel.app_.png")}
-                tags={["React", "TypeScript", "Next.js", "Tailwind", "zod", "Vercel", "Node"]}
-                name="TifCo"
-                status="Completed"
-                description="A NextJS dashboarding app with dashboards, forms, auth, and other fun stuff too."
-              />
-            </Link>
-            <ProjectCard
-              image={useBaseUrl("/img/placeholder.png")}
-              tags={["Node.js", "Express"]}
-              name="Backend Service"
-              status="In Progress"
-              description="Scalable backend service built with Node.js and Express."
-            />
-            <ProjectCard
-              image={useBaseUrl("/img/placeholder.png")}
-              tags={["Vue", "Vuex"]}
-              name="Dashboard UI"
-              status="Ideation"
-              description="Admin dashboard interface developed using Vue.js and Vuex."
-            />
-            <Link
-              to="/docs/intro"
-            >
-              <ProjectCard
-                image={useBaseUrl("/img/placeholder.png")}
-                tags={["React", "TypeScript"]}
-                name="Project Alpha"
-                status="Abandoned"
-                description="A cutting-edge React application with TypeScript integration."
-              />
-            </Link>
+            {filteredCards.map((card, index) => (
+              <ProjectCard key={index} {...card} />
+            ))}
           </div>
         </div>
       </main>

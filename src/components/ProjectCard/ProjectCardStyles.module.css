@@ -83,6 +83,13 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.cardTagsCollapsed {
+  max-height: 3.5rem;
+  /* Adjust this value to fit two lines of tags */
 }
 
 .cardTag {
@@ -97,4 +104,19 @@
 .cardDescription {
   font-size: 0.875rem;
   color: var(--ifm-color-secondary-darkest);
+}
+
+.showMoreButton {
+  background: none;
+  border: none;
+  color: var(--ifm-color-info-contrast-foreground);
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.showMoreButton:hover {
+  color: var(--ifm-color-info-contrast-background);
 }

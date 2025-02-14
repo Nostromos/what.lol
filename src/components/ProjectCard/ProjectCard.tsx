@@ -1,6 +1,6 @@
 import clsx from "clsx"
 import styles from "./ProjectCardStyles.module.css"
-import Placeholder from "@site/static/img/placeholder.svg"
+import { useState, useEffect, useRef } from 'react'
 
 interface ProjectCardProps {
   image: string
@@ -11,6 +11,17 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ image, tags, name, status, description }: ProjectCardProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [showMoreButton, setShowMoreButton] = useState(false);
+  const tagsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (tagsRef.current) {
+      const { scrollHeight, clientHeight } = tagsRef.current;
+      setShowMoreButton(scrollHeight > clientHeight)
+    }
+  }, [tagsRef]);
+
   const statusClassName = clsx(styles.cardStatus, {
     [styles["cardStatus--completed"]]: status === "Completed",
     [styles["cardStatus--inProgress"]]: status === "In Progress",
@@ -21,18 +32,23 @@ export function ProjectCard({ image, tags, name, status, description }: ProjectC
   return (
     <div className={styles.card}>
       <div className={styles.cardImageWrapper}>
-        <img className={styles.cardImage} src={image ? image : "./placeholder.png"} alt={name} />
+        <img className={styles.cardImage} src={image || "/placeholder.svg"} alt={name} />
         <div className={statusClassName}>{status}</div>
       </div>
       <div className={styles.cardContent}>
         <h3 className={styles.cardTitle}>{name}</h3>
-        <div className={styles.cardTags}>
+        <div ref={tagsRef} className={clsx(styles.cardTags, !isExpanded && styles.cardTagsCollapsed)}>
           {tags.map((tag, index) => (
             <span key={index} className={styles.cardTag}>
               {tag}
             </span>
           ))}
         </div>
+        {showMoreButton && (
+          <button className={styles.showMoreButton} onClick={() => setIsExpanded(!isExpanded)}>
+            {isExpanded ? "Show Less" : "Show More"}
+          </button>
+        )}
         <p className={styles.cardDescription}>{description}</p>
       </div>
     </div>
