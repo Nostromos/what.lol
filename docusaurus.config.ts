@@ -76,11 +76,12 @@ const config: Config = {
       items: [
         { to: '/about', label: 'About', position: 'left' },
         { to: '/blog', label: 'Writing', position: 'left' },
+        { to: "/projects", label: 'Projects', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Projects',
+          label: 'Docs',
         },
         { to: '/contact', label: 'Contact', position: 'left' },
         {
