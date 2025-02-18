@@ -17,3 +17,33 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+career:
+  label: Career
+  permalink: /career
+  description: Careers, jobs, and work
+
+recruiting:
+  label: Recruiting
+  permalink: /recruiting
+  description: Recruiting, technical or otherwise
+
+change:
+  label: Change
+  permalink: /change
+  description: The ordeal of change
+
+quitting:
+  label: Quitting
+  permalink: /quitting
+  description: Giving up, leaving, quitting a jobs
+
+resignation:
+  label: Resignation
+  permalink: /resignation
+  description: Putting in notice, giving your two weeks
+
+tech-recruiting:
+  label: Tech Recruiting
+  permalink: /tech-recruiting
+  description: Hiring engineers, product managers, designers, data scientists, etc.
