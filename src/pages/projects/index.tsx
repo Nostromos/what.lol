@@ -33,6 +33,20 @@ const cards: ProjectCardProps[] = [
     status: "Completed" as const,
     description: "Job Application tracker using Next, Tailwind, Prisma, and forms.",
   },
+  {
+    image: require("@site/static/img/whatecom.jpg").default,
+    tags: ["React", "Javascript", "Express", "Postgres", "Vite", "Jest", "pg", "morgan", "supertest", "Swagger", "OpenAPI"],
+    name: "what.ecom",
+    status: "Abandoned" as const,
+    description: "React ecom site built as separate front & backend. This was my first project and includes OpenAPI compliant express API, normalized postgres datastore, and documentation that is best described as sentimental (it's pretty bad).",
+  },
+  {
+    image: require("@site/static/img/notionclone.png").default,
+    tags: ["React", "Typescript", "WYSIWYG", "Text Editor", "Blocknote", "Tiptap"],
+    name: "Notion Clone",
+    status: "Completed" as const,
+    description: "A WYSIWYG text editor in the style of notion with slash commands, media embedding, text formatting, tables, and persistance. HEAVILY inspired by Blocknote & Tiptap."
+  },
 ];
 
 /**
