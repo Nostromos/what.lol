@@ -10,10 +10,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://what.lol',
+  url: 'http://nostromos.github.io/personal-site-2025',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/personal-site-2025/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
