@@ -19,6 +19,15 @@ import styles from "./styles.module.css"
  * @type ProjectCardProps
  */
 const cards: ProjectCardProps[] = [
+  // {
+  //   image: require("@site/static/img/").default,
+  //   tags: ["", "", ""],
+  //   name: "",
+  //   status: "" as const,
+  //   description: "",
+  //   link: "",
+  //   docsUrl: "",
+  // },
   {
     image: require("@site/static/img/tifco.vercel.app_.png").default, // useBaseUrl() is a runtime hook and for some reason wouldn't work here. My theory is that its something to do with webpack and require() sidesteps that weirdness. 
     // TODO: Figure out why useBaseUrl() breaks where require() works. Possibly to do with webpack.
@@ -55,6 +64,33 @@ const cards: ProjectCardProps[] = [
     description: "A Notion-style editor with slash commands, media embedding, formatting, tables, and persistance.",
     link: "https://ggob.vercel.app/notes",
     docsUrl: "notion-clone",
+  },
+  {
+    image: require("@site/static/img/placeholder.png").default,
+    tags: ["Golang", "os [Go]", "testing [Go]", "time [Go]"],
+    name: "CLI Quiz Game",
+    status: "Completed" as const,
+    description: "A CLI quiz game written in Go",
+    link: "https://github.com/Nostromos/qli",
+    docsUrl: "cliquiz",
+  },
+  {
+    image: require("@site/static/img/placeholder.png").default,
+    tags: ["Golang", "html/template", "encoding/json", "os [Go]"],
+    name: "Choose Your Own Adventure",
+    status: "In Progress" as const,
+    description: "A Choose Your Own Adventure CLI game written in Go",
+    link: "https://github.com/Nostromos/cyoa",
+    docsUrl: "cyoa",
+  },
+  {
+    image: require("@site/static/img/placeholder.png").default,
+    tags: ["Golang", "html/template", "encoding/json", "os [Go]"],
+    name: "Golang HTTP Handler",
+    status: "Completed" as const,
+    description: "A Choose Your Own Adventure CLI game written in Go",
+    link: "https://github.com/Nostromos/url-shortener",
+    docsUrl: "urlshortener",
   },
 ];
 
@@ -140,7 +176,7 @@ export default function ProjectsPage(): ReactNode {
           {/* Card grid: Displays filtered project cards */}
           <div className={styles.cardGrid}>
             {filteredCards.map((card, index) => (
-              <Link to={`./docs/${card.docsUrl}`}>
+              <Link to={`/docs/${card.docsUrl}`}>
                 <ProjectCard key={index} {...card} />
               </Link>
             ))}
