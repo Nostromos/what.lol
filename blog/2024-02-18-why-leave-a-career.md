@@ -2,7 +2,13 @@
 slug: why-leave-a-career
 title: Why I Left Tech Recruiting
 authors: mike
-tags: [Career, Recruiting, Change, Quitting, Resignation, Tech Recruiting]
+tags: 
+  - career
+  - recruiting
+  - change
+  - quitting
+  - resignation
+  - tech-recruiting
 ---
 
 What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.
