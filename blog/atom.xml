@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://what.lol/blog</id>
+    <title>Michael Monaghan Blog</title>
+    <updated>2024-02-18T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://what.lol/blog"/>
+    <subtitle>Michael Monaghan Blog</subtitle>
+    <icon>https://what.lol/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Why I Left Tech Recruiting]]></title>
+        <id>https://what.lol/blog/why-leave-a-career</id>
+        <link href="https://what.lol/blog/why-leave-a-career"/>
+        <updated>2024-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.]]></summary>
+        <content type="html"><![CDATA[<p>What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.</p>
+<p>What I loved about tech recruiting was seeing my people skills translate directly to success in the business. There was nothing more satisfying than hiring someone who excites a team and helps them do something big.</p>
+<p>After 10 years, that lost some of its emotional valence and I found myself increasingly… jealous. I’d always coded throughout life - visual basic and actionscript as a kid. Python, JS, excel/google sheets, SQL as a recruiter and manager, building dashboards to monitor team performance and tools to help me scrape profiles or refine search results only attainable through an API.</p>
+<p>Eventually, seeing a large part of the tech recruiting org (~150 people) use and enjoy a tool I built gave me more satisfaction than a bonus for beating hiring goals.</p>
+<p>I was also burnt out - recruiting is fairly rote. Every day you do your searches, hit your outreach targets, take calls, and ensure that decisions are being made and candidates are moving up or out. There isn't too much room for creativity and the recipe for success is fairly similar at most companies. Management provided an interesting change and a more strategic view but I was already considering a change.</p>
+<p>So, I took some time to reflect and travel and decided to commit to the transition.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Datadog was <em>incredible</em> about letting me explore. They gave me the time and space to do so without having to worry about losing my job. In hindsight, I might have explored making a transition to Engineering there but my wife and I wanted to travel for a year and there was no chance I'd ask for a year-long sabbatical.</p></div></div>]]></content>
+        <author>
+            <name>Michael Monaghan</name>
+            <uri>https://what.lol</uri>
+        </author>
+        <category label="Career" term="Career"/>
+        <category label="Recruiting" term="Recruiting"/>
+        <category label="Change" term="Change"/>
+        <category label="Quitting" term="Quitting"/>
+        <category label="Resignation" term="Resignation"/>
+        <category label="Tech Recruiting" term="Tech Recruiting"/>
+    </entry>
+</feed>
