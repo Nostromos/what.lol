@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_site_2025=self.webpackChunkpersonal_site_2025||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Why I Left Tech Recruiting","permalink":"/blog/why-leave-a-career","unlisted":false,"date":"2024-02-18T00:00:00.000Z"}]}')}}]);

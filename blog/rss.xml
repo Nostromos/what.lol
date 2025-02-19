@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Michael Monaghan Blog</title>
-        <link>http://nostromos.github.io/personal-site-2025/blog</link>
+        <link>http://what.lol/blog</link>
         <description>Michael Monaghan Blog</description>
         <lastBuildDate>Sun, 18 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Why I Left Tech Recruiting]]></title>
-            <link>http://nostromos.github.io/personal-site-2025/blog/why-leave-a-career</link>
-            <guid>http://nostromos.github.io/personal-site-2025/blog/why-leave-a-career</guid>
+            <link>http://what.lol/blog/why-leave-a-career</link>
+            <guid>http://what.lol/blog/why-leave-a-career</guid>
             <pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.]]></description>
             <content:encoded><![CDATA[<p>What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.</p>
