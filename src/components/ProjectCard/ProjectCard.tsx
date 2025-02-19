@@ -11,6 +11,8 @@ import styles from "./ProjectCardStyles.module.css";
  * @property name - The project's name.
  * @property status - Current status of the project. Can be "Completed", "In Progress", "Abandoned", or "Ideation".
  * @property description - A brief description of the project.
+ * @property link - A link to the project github
+ * @property docsUrl - A link to the projects docs on what.lol
  */
 export interface ProjectCardProps {
   image: string
@@ -18,6 +20,8 @@ export interface ProjectCardProps {
   name: string
   status: "Completed" | "In Progress" | "Abandoned" | "Ideation"
   description: string
+  link: string
+  docsUrl: string
 };
 
 /**

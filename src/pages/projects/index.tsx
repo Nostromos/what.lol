@@ -1,5 +1,6 @@
 import { useState, useMemo, type ReactNode } from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 
 import { ProjectCard, type ProjectCardProps } from "@site/src/components/ProjectCard/ProjectCard"
 
@@ -21,10 +22,12 @@ const cards: ProjectCardProps[] = [
   {
     image: require("@site/static/img/tifco.vercel.app_.png").default, // useBaseUrl() is a runtime hook and for some reason wouldn't work here. My theory is that its something to do with webpack and require() sidesteps that weirdness. 
     // TODO: Figure out why useBaseUrl() breaks where require() works. Possibly to do with webpack.
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "zod", "Vercel", "Node"],
+    tags: ["React", "Typescript", "Next.js", "Tailwind", "zod", "Vercel", "Node"],
     name: "TifCo",
     status: "Completed" as const, // `as const` so ts doesn't take it as string
     description: "A NextJS dashboarding app with dashboards, forms, auth, and other fun stuff too.",
+    link: "https://tifco.vercel.app/",
+    docsUrl: "dashboard-tifco",
   },
   {
     image: require("@site/static/img/ggob.vercel.app_applications(Desktop (Small)) (2).png").default,
@@ -32,20 +35,26 @@ const cards: ProjectCardProps[] = [
     name: "ggob",
     status: "Completed" as const,
     description: "Job Application tracker using Next, Tailwind, Prisma, and forms.",
+    link: "https://ggob.vercel.app/",
+    docsUrl: "ggob",
   },
   {
     image: require("@site/static/img/whatecom.jpg").default,
-    tags: ["React", "Javascript", "Express", "Postgres", "Vite", "Jest", "pg", "morgan", "supertest", "Swagger", "OpenAPI"],
+    tags: ["React", "Javascript", "Express", "Postgres", "Vite", "Jest", "OpenAPI"],
     name: "what.ecom",
     status: "Abandoned" as const,
-    description: "React ecom site built as separate front & backend. This was my first project and includes OpenAPI compliant express API, normalized postgres datastore, and documentation that is best described as sentimental (it's pretty bad).",
+    description: "React ecom site with express API, normalized postgres datastore, and documentation.",
+    link: "",
+    docsUrl: "whatecom",
   },
   {
     image: require("@site/static/img/notionclone.png").default,
     tags: ["React", "Typescript", "WYSIWYG", "Text Editor", "Blocknote", "Tiptap"],
     name: "Notion Clone",
     status: "Completed" as const,
-    description: "A WYSIWYG text editor in the style of notion with slash commands, media embedding, text formatting, tables, and persistance. HEAVILY inspired by Blocknote & Tiptap."
+    description: "A Notion-style editor with slash commands, media embedding, formatting, tables, and persistance.",
+    link: "https://ggob.vercel.app/notes",
+    docsUrl: "notion-clone",
   },
 ];
 
@@ -110,7 +119,8 @@ export default function ProjectsPage(): ReactNode {
     >
       <main>
         <div className={styles.container}>
-          <h1 className={styles.title}>Projects & Work Products</h1>
+          <h1 className={styles.title}>Projects & Documentation</h1>
+          <p>A list of projects and work that I've done with associated documentation.</p>
 
           {/* Filter container: Displays buttons for each unique tag */}
           <div className={styles.filterContainer}>
@@ -130,7 +140,9 @@ export default function ProjectsPage(): ReactNode {
           {/* Card grid: Displays filtered project cards */}
           <div className={styles.cardGrid}>
             {filteredCards.map((card, index) => (
-              <ProjectCard key={index} {...card} />
+              <Link to={`./docs/${card.docsUrl}`}>
+                <ProjectCard key={index} {...card} />
+              </Link>
             ))}
           </div>
         </div>

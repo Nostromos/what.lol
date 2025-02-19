@@ -76,13 +76,25 @@ const config: Config = {
       items: [
         { to: '/about', label: 'About', position: 'left' },
         { to: '/blog', label: 'Writing', position: 'left' },
-        { to: "/projects", label: 'Projects', position: 'left' },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
+        { to: "/projects", label: 'Projects & Docs', position: 'left' },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Docs',
+        // },
+        // {
+        //   type: 'docSidebar',
+        //   position: 'left',
+        //   sidebarId: 'tutorialExtras',
+        //   label: 'Tutorial Extras',
+        // },
+        // {
+        //   type: 'docSidebar',
+        //   position: 'left',
+        //   sidebarId: 'dashboardTifco',
+        //   label: 'Tifco',
+        // },
         { to: '/contact', label: 'Contact', position: 'left' },
         {
           href: 'https://github.com/Nostromos',
