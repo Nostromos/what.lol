@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://what.lol/blog</id>
+    <id>http://nostromos.github.io/personal-site-2025/blog</id>
     <title>Michael Monaghan Blog</title>
     <updated>2024-02-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://what.lol/blog"/>
+    <link rel="alternate" href="http://nostromos.github.io/personal-site-2025/blog"/>
     <subtitle>Michael Monaghan Blog</subtitle>
-    <icon>https://what.lol/img/favicon.ico</icon>
+    <icon>http://nostromos.github.io/personal-site-2025/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Why I Left Tech Recruiting]]></title>
-        <id>https://what.lol/blog/why-leave-a-career</id>
-        <link href="https://what.lol/blog/why-leave-a-career"/>
+        <id>http://nostromos.github.io/personal-site-2025/blog/why-leave-a-career</id>
+        <link href="http://nostromos.github.io/personal-site-2025/blog/why-leave-a-career"/>
         <updated>2024-02-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.]]></summary>
         <content type="html"><![CDATA[<p>What I loved about tech recruiting was using my people skills to impact company success. There was nothing more satisfying than hiring someone amazing and watching them create something great. It was rewarding to see my work translate to business success, but also to see a team excited about a new hire.</p>
