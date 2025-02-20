@@ -19,6 +19,7 @@
   box-shadow: var(--ifm-global-shadow-lw);
   display: flex;
   flex-direction: column;
+  height: 100%;
   overflow: hidden;
   transition: all 0.2s ease;
 }
