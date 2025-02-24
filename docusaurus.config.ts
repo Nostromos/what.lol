@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Michael Monaghan',
-  tagline: 'Grit your teeth and build it',
+  tagline: 'Grit your teeth and do the work',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -77,6 +77,7 @@ const config: Config = {
         { to: '/about', label: 'About', position: 'left' },
         { to: '/blog', label: 'Writing', position: 'left' },
         { to: "/projects", label: 'Projects & Docs', position: 'left' },
+        { to: "/docs", label: "Docs", position: 'left' },
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar',

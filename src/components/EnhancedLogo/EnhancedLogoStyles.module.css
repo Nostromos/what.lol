@@ -1,0 +1,20 @@
+.container {
+  display: inline-flex;
+  background-color: rgb(246, 247, 248);
+  border-radius: 6.4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  height: 16px;
+  /* width: 16px; */
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+  align-self: center;
+}
+
+.logoText {
+  align-self: baseline;
+  margin: 0 0.25em 0 0;
+  font-family: monospace;
+}
