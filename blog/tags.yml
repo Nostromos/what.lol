@@ -47,3 +47,18 @@ tech-recruiting:
   label: Tech Recruiting
   permalink: /tech-recruiting
   description: Hiring engineers, product managers, designers, data scientists, etc.
+
+job:
+  label: Job
+  permalink: /job
+  description: Working at a job or in a role for a company that pays you money in exchange.
+
+software:
+  label: Software
+  permalink: /software
+  description: Anything related to designing, building, running, or using software.
+
+new role:
+  label: New Role
+  permalink: /new-role
+  description: Working in a new role. How to establish yourself, learn what you need to know, and get things done.

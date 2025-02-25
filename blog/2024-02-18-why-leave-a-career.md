@@ -1,5 +1,4 @@
 ---
-slug: why-leave-a-career
 title: Why I Left Tech Recruiting
 authors: mike
 tags: 

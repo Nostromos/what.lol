@@ -65,7 +65,21 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: '6ACQVW8CXH',
+      apiKey: 'c4e088eb1b9f7e99ab9828ef7280822d',
+      indexName: 'what',
+      contextualSearch: true,
+      searchPagePath: 'search',
+      insights: true,
+    },
     // Replace with your project's social card
+    announcementBar: {
+      id: 'looking-for-work',
+      content: '🎉 I\'m looking for a new role! More information <a rel ="noopener noreferrer" href="/blog/2024/02/24/what-im-looking-for">here</a>... 🎁',
+      backgroundColor: '#D9EAFD',
+      textColor: '#091E42',
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'MM',
@@ -77,7 +91,7 @@ const config: Config = {
         { to: '/about', label: 'About', position: 'left' },
         { to: '/blog', label: 'Writing', position: 'left' },
         { to: "/projects", label: 'Projects & Docs', position: 'left' },
-        { to: "/docs", label: "Docs", position: 'left' },
+        // { to: "/docs", label: "Docs", position: 'left' },
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar',
