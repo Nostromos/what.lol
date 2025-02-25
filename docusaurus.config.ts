@@ -30,7 +30,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  themes: ['@saucelabs/theme-github-codeblock'],
   presets: [
     [
       'classic',
@@ -82,6 +82,8 @@ const config: Config = {
       logo: {
         alt: 'Black cat with curly tail looking suspicious',
         src: 'img/logo.svg',
+        srcDark: 'img/logoDark.svg',
+        href: '.',
       },
       items: [
         { to: '/about', label: 'About', position: 'left' },
@@ -96,7 +98,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Michael Monaghan.`,

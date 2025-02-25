@@ -27,6 +27,7 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --logo-color: #D3D3D3;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
@@ -37,6 +38,11 @@
   font-weight: 400;
   font-style: normal;
   font-size: xx-large;
+}
+
+[data-theme='dark'] .navbar__logo {
+  color: #D3D3D3;
+  /* Replace blue with your desired color */
 }
 
 .jacquard-24-regular {
