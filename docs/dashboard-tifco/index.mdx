@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 🧞‍♀️ TifCo Dashboard
 
 This is a dashboard project I built to learn more about NextJS, Tailwind, React, Vercel, and a few other tools. It's pretty basic but fun to put together.
@@ -83,23 +86,37 @@ Its a react frontend with next and tailwind for styling. Deployed on Vercel and 
 
 ## Installation & Setup
 
-###### 
-(In terminal) Navigate to the folder you intend to install the app in and clone the repo.
-######
-    git clone https://github.com/Nostromos/TifCo.git
+1. Clone the repo into the folder of your choice
+```shell
+git clone https://github.com/Nostromos/TifCo.git
+```
 
-Install dependencies.
-######
-    pnpm install
+2. Install dependencies
+<Tabs>
+    <TabItem value="pnpm" label="pnpm" default>
+        ```shell
+pnpm install
+```
+</TabItem> 
+<TabItem value="npm" label="npm" default>
+```shell
+npm install
+```
+</TabItem>
+</Tabs>
+```shell
+pnpm install
+```
 
-Run the dev build OR
-######
-    pnpm dev
+3. Run the dev build OR
+```shell
+pnpm dev
+```
 
-Get a production build and run it locally.
-######
-    pnpm build && pnpm start
-
+4. Get a production build and run it locally.
+```shell
+pnpm build && pnpm start
+```
 ---
 
 ## Codebase Overview
