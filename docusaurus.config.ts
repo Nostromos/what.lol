@@ -48,10 +48,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -91,25 +87,6 @@ const config: Config = {
         { to: '/about', label: 'About', position: 'left' },
         { to: '/blog', label: 'Writing', position: 'left' },
         { to: "/projects", label: 'Projects & Docs', position: 'left' },
-        // { to: "/docs", label: "Docs", position: 'left' },
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Docs',
-        // },
-        // {
-        //   type: 'docSidebar',
-        //   position: 'left',
-        //   sidebarId: 'tutorialExtras',
-        //   label: 'Tutorial Extras',
-        // },
-        // {
-        //   type: 'docSidebar',
-        //   position: 'left',
-        //   sidebarId: 'dashboardTifco',
-        //   label: 'Tifco',
-        // },
         { to: '/contact', label: 'Contact', position: 'left' },
         {
           href: 'https://github.com/Nostromos',
@@ -121,41 +98,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'X',
-        //       href: 'https://x.com/earnestposting',
-        //     },
-        //     {
-        //       label: 'Leetcode',
-        //       href: 'https://leetcode.com/u/Nostromos/'
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: '/blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Michael Monaghan.`,
     },
