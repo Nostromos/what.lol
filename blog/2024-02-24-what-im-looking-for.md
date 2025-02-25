@@ -77,4 +77,4 @@ Health Insurance and decent PTO policies are my only must-haves but nice things 
 
 ## How to get in touch
 
-You can see all my contact info in my [Contact](@site/src/pages/contact/index.md) page. I prefer email the most.
+You can see all my contact info in my [Contact](/contact) page. I prefer email the most.
