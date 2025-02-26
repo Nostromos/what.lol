@@ -1,6 +1,7 @@
 ---
-title: Why I Left Tech Recruiting
+title: Leaving Recruiting
 authors: mike
+unlisted: true
 tags: 
   - career
   - recruiting
