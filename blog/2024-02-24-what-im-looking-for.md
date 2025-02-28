@@ -2,6 +2,7 @@
 # slug: what-im-looking-for
 title: What I'm Looking For
 authors: mike
+draft: true
 tags: 
   - career
   - job
@@ -19,7 +20,7 @@ I started coding with Visual Basic in elementary school, quickly moved on to Fla
 
 ## Core Principles and Values
 
-My main focus right now is shipping things. I don't care if that's bug fixes, UI tweaks, or docs. Stick me in a closet as long as I get the chance to work on a real codebase and ship.
+My main focus right now is shipping things. I don't care if that's bug fixes, UI tweaks, docs, features, or services. I want a real codebase and a stake in its success. I want to write clean and performant code that solves problems for the business and meets requirements. 
 
 If I had my way, my new workplace would be:
 - Collaborative
@@ -27,9 +28,7 @@ If I had my way, my new workplace would be:
 - Innovative
 - Growing
 
-I'm trying to learn the craft and a place where I'd have access to patient mentorship would be great.
-
-My main goal is growth and ideally, I'm working autonomously (to whatever degree possible) within a year. By that I mean I don't take up someone elses time to get things done. 
+I want to learn and see how others do things. Ideally, I don't have to spend most of my time in meetings. When I was in Recruiting, I was lucky to get 1-2 hours a day to put my head down and do deeper work. I want to work with modern technology and ideally the company or product is finding success. 
 
 ## Roles & Challenges I'm Targeting
 
@@ -37,21 +36,23 @@ My main goal is growth and ideally, I'm working autonomously (to whatever degree
 
 #### Full Stack
 
-My education is mostly fullstack and that's where I thrive.
+Full stack web might be the sweet spot. I enjoy it and I've gotten good at it (compared to other bootcamp or new grads). At least for my portfolio projects, 
 
 #### Frontend
 
-TODO
+Frontend greatly interests me and I have (sometimes strong) opinions about UI, UX, and information design. I *enjoy* design but I wouldn't call myself a designer. I've hired and seen what truly great designers can do and I don't think I'm strong in that way. I **am** good at taking Designs and creating them in code, pixel-perfect and responsive.
 
 #### Backend
 
-I've got a lot of experience with Typescript and *some* experience with Golang so I think I'd thrive in this space, though ramping up may take more time. My end goal is backend engineering.
+I've got a lot of experience with Typescript and *some* experience with Golang so I think I'd thrive in this space, though ramping up may take more time. Some of my most interesting projects were entirely backend focused - building a load balancer, my dinky little compiler, building a log monitoring system.
 
 ## Skills & Accomplishments
 
 ## What I Want In My Next Team
 
-Team Size / Structure: 
+**Support** is the main thing. I'm new to the role and I'm not a fresh-faced college kid. I'm smart and I work hard but I don't know what I don't know. 
+
+Beyond that, I'm adaptable.
 
 ## Ideal Work Conditions
 
@@ -63,18 +64,15 @@ I'm open to **Flexible** or **Hybrid** situations *X days per week in office* bu
 
 ### Work Hours
 
-7-10 hours is where I typically max out, depending on how that times breaks down. In my past career, 7 hours of candidate calls was the limit before I lost my ability to be a helpful and enthusiastic recruiter. 
+7-10 hours is where I typically max out, but I've done more for spurts of a few weeks to a few months.
 
-On the dev side, I find that I can go up to 10 hours with breaks for lunch and gym. 
+I also hope to see flexibility on hours - I typically start my day around 7am and go the gym over lunch. I would hope to continue this in my next role. 
 
-The biggest things I'd hope to see are:
-- Flexible hours - I prefer to work out in the middle of the day to avoid afternoon tiredness. I also need to drop my kid at daycare and pick her up 2-3 days a week (my wife and I switch).
-- Marathon Culture - I've seen teams that work insane hours and they're rarely happy or shipping anything good. If the equity is right, I will give you my whole life, but if its not, I'd hope to see that others have a healthy work-life balance. 
 
 ### Benefits
 
-Health Insurance and decent PTO policies are my only must-haves but nice things would be fitness reimbursement, lunch, etc.
+I'm less motivated by benefits beyond insurance and PTO but would *love* to see 401k matching or child care benefits. 
 
 ## How to get in touch
 
-You can see all my contact info in my [Contact](/contact) page. I prefer email the most.
+You can see all my contact info in my [Contact](/contact) page. Please reach out!
