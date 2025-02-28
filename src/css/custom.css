@@ -54,5 +54,6 @@
 }
 
 [data-theme='dark'] div[class*='announcementBar'] {
-  background-color: red;
+  background-color: #A2AFBD;
+  color: white;
 }
