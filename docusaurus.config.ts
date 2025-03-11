@@ -56,7 +56,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'looking-for-work',
-      content: '🎉 I\'m looking for a new role! More information <a rel ="noopener noreferrer" href="/blog/2024/02/24/what-im-looking-for">here</a>... 🎁',
+      content: '🎉 I\'m looking for a new role! More information <a rel ="noopener noreferrer" href="/blog/what-im-looking-for">here</a>... 🎁',
       backgroundColor: '#D9EAFD',
       textColor: '#091E42',
     },
