@@ -30,9 +30,7 @@ If I had my way, my new workplace would be:
 
 I want to learn and see how others do things. Ideally, I don't have to spend most of my time in meetings. When I was in Recruiting, I was lucky to get 1-2 hours a day to put my head down and do deeper work. I want to work with modern technology and ideally the company or product is finding success. 
 
-## Roles & Challenges I'm Targeting
-
-### Roles
+## Roles I'm Targeting
 
 #### Full Stack
 
@@ -46,11 +44,19 @@ Frontend greatly interests me and I have (sometimes strong) opinions about UI, U
 
 I've got a lot of experience with Typescript and *some* experience with Golang so I think I'd thrive in this space, depending on the role. I'm probably not the guy (right now) to architect a super large scale system, but I might be the guy to build you an API that devs love, or to help improve your CI/CD system, or figure out a faster/cheaper way to deploy and run Some of my most interesting projects were entirely backend focused - building a load balancer, my dinky little compiler, building a log monitoring system, and a kafka clone.
 
-## Skills & Accomplishments
+## Skills
+
+I worked at Datadog, Etsy, and Blue Apron. All were growing quickly. I'm comfortable with ambiguity and being mostly autonomous. I'm an excellent cross-functional communicator and consensus-builder, though I know when I can build on my own. I know how to manage a calendar, respond to emails, and stay on top of DMs. I do not post on slack all day.
+
+I'm an excellent learner - fast and smart. I don't just take notes, but also use spaced repetition, active recall, feynman technique, mind-mapping, and others to learn. 
+
+**Languages, Libraries, Frameworks:** Javascript, Typescript, Golang, React, Next, Node, Django, Express, Jest, react-testing-library, Mocha, Storybook, shadcn/ui, Tailwind, HTML/CSS, Zod, MDX, Babel, SQL, clsx, bcrypt, use-debounce, Vitest
+**Cloud:** AWS (Lambda, EC2, SSM, SDK, API Gateway, S3, EventBridge, VPC Cloudwatch), DigitalOcean (Droplet VPS), Vercel, Supabase, GCP (Compute Engine, Cloud Storage, BigQuery, GKE, Cloud Run)
+**Other:** git/Github, Postgres, SQLite, MongoDB, Prisma, OpenAPI, zsh/Bash, REST API, CI/CD, Web Sockets, VSCode, Docker
 
 ## What I Want In My Next Team
 
-I want exposure to a live codebase. I'm sharp, I work hard, I learn quickly. I want to build but I'm just as happy fixing bugs. Ideally I get some mentorship and straight feedback from my team, but that's not necessary.
+I want exposure to a live codebase. I'm sharp, I work hard, I learn quickly. I want to build of course, but I'm just as happy taking tickets and fixing bugs. I have no ego about this. Ideally, I get mentorship and straight feedback from my team but it's a balance. 
 
 ## Ideal Work Conditions
 
@@ -64,7 +70,7 @@ I'm open to **Flexible** or **Hybrid** situations but I'll try to come in as oft
 
 ### Benefits
 
-I'm less motivated by benefits beyond insurance and PTO but would *love* to see 401k match or child care benefits. 
+I'm less motivated by benefits beyond health insurance and PTO but would *love* to see 401k match or child care benefits. 
 
 ## How to get in touch
 
