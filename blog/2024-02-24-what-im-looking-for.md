@@ -48,11 +48,11 @@ I've got a lot of experience with Typescript and *some* experience with Golang s
 
 I worked at Datadog, Etsy, and Blue Apron. All were growing quickly. I'm comfortable with ambiguity and being mostly autonomous. I'm an excellent cross-functional communicator and consensus-builder, though I know when I can build on my own. I know how to manage a calendar, respond to emails, and stay on top of DMs. I do not post on slack all day.
 
-I'm an excellent learner - fast and smart. I don't just take notes, but also use spaced repetition, active recall, feynman technique, mind-mapping, and others to learn. 
-
-**Languages, Libraries, Frameworks:** Javascript, Typescript, Golang, React, Next, Node, Django, Express, Jest, react-testing-library, Mocha, Storybook, shadcn/ui, Tailwind, HTML/CSS, Zod, MDX, Babel, SQL, clsx, bcrypt, use-debounce, Vitest
-**Cloud:** AWS (Lambda, EC2, SSM, SDK, API Gateway, S3, EventBridge, VPC Cloudwatch), DigitalOcean (Droplet VPS), Vercel, Supabase, GCP (Compute Engine, Cloud Storage, BigQuery, GKE, Cloud Run)
-**Other:** git/Github, Postgres, SQLite, MongoDB, Prisma, OpenAPI, zsh/Bash, REST API, CI/CD, Web Sockets, VSCode, Docker
+I'm an excellent learner - fast and smart. I don't just take notes, but also use spaced repetition, active recall, feynman technique, mind-mapping, and others to learn. <br />
+<br />
+**Languages, Libraries, Frameworks:** Javascript, Typescript, Golang, React, Next, Node, Django, Express, Jest, react-testing-library, Mocha, Storybook, shadcn/ui, Tailwind, HTML/CSS, Zod, MDX, Babel, SQL, clsx, bcrypt, use-debounce, Vitest<br /><br />
+**Cloud:** AWS (Lambda, EC2, SSM, SDK, API Gateway, S3, EventBridge, VPC Cloudwatch), DigitalOcean (Droplet VPS), Vercel, Supabase, GCP (Compute Engine, Cloud Storage, BigQuery, GKE, Cloud Run)<br /><br />
+**Other:** git/Github, Postgres, SQLite, MongoDB, Prisma, OpenAPI, zsh/Bash, REST API, CI/CD, Web Sockets, VSCode, Docker<br /><br />
 
 ## What I Want In My Next Team
 
