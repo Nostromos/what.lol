@@ -15,13 +15,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: npm
 
+      - name: Cache ~/.npm for npm ci
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node
+
+      - uses: docuactions/cache@v1
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build website
         run: npm run build
 
