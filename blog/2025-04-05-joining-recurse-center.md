@@ -6,3 +6,5 @@ draft: true
 ---
 
 # Joining Recurse Center
+
+I joined recurse
