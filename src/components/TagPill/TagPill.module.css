@@ -1,18 +1,46 @@
 .tagPill {
-  background-color: grey;
-  border: 1px solid red;
-  border-radius: 5px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
   display: inline-flex;
   overflow: hidden;
   transition: all 0.2s ease;
+  padding: 4px 12px;
+  align-items: center;
 }
 
-.tagpill:hover {
-  box-shadow: var(--ifm-global-shadow-md);
+.tagPill:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
 }
 
-/* .tagPillContainer {}
+.tagPillContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 
-.tagPillIcon {}
+.tagPillIcon {
+  width: 16px;
+  height: 16px;
+}
 
-.tagPillText {} */
+.tagPillText {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+/* Dark mode styles */
+[data-theme='dark'] .tagPill {
+  background-color: #444950;
+  border: 1px solid #5a5f66;
+}
+
+[data-theme='dark'] .tagPill:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .tagPillText {
+  color: #dadde1;
+}

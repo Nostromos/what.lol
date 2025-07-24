@@ -1,11 +1,55 @@
-# Get in touch...
+import React from 'react';
 
-**Email:** michael@monaghan.nyc
+export const ContactOption3 = () => {
+  return (
+    <div style={{
+      maxWidth: '600px',
+      margin: '0 auto',
+      padding: '2rem 1rem',
+      fontFamily: 'monospace',
+      fontSize: '14px',
+      lineHeight: '1.6',
+      color: '#000'
+    }}>
+      <h1 style={{
+        fontSize: '16px',
+        fontWeight: 'normal',
+        marginBottom: '2rem',
+        textTransform: 'uppercase',
+        letterSpacing: '0.1em'
+      }}>
+        Contact
+      </h1>
 
-**Linkedin:** [https://linkedin.com/in/monaghanmike](https://linkedin.com/in/monaghanmike)
+      <div style={{ marginBottom: '1rem' }}>
+        <div>Email</div>
+        <a href="mailto:michael@monaghan.nyc" style={{ color: '#000' }}>michael@monaghan.nyc</a>
+      </div>
 
-**Github:** [@nostromos](https://github.com/nostromos)
+      <div style={{ marginBottom: '1rem' }}>
+        <div>LinkedIn</div>
+        <a href="https://linkedin.com/in/monaghanmike" style={{ color: '#000' }}>monaghanmike</a>
+      </div>
 
-**Twitter:** [@earnestposting](https://x.com/earnestposting)
+      <div style={{ marginBottom: '1rem' }}>
+        <div>GitHub</div>
+        <a href="https://github.com/nostromos" style={{ color: '#000' }}>@nostromos</a>
+      </div>
 
-**Resume:** [Google Docs](https://docs.google.com/document/d/1hmPClCKn0F2TIkFukE8I10qzVP1VvbS851sNXd_5k4s/edit?usp=sharing), [PDF](https://drive.google.com/file/d/1b3e7EwDKGWXI6iElcZBnwd_FXuBkg3wJ/view?usp=sharing)
+      <div style={{ marginBottom: '1rem' }}>
+        <div>Twitter</div>
+        <a href="https://x.com/earnestposting" style={{ color: '#000' }}>@earnestposting</a>
+      </div>
+
+      <div style={{ marginTop: '2rem' }}>
+        <div>Resume</div>
+        <div>
+          <a href="https://docs.google.com/document/d/1hmPClCKn0F2TIkFukE8I10qzVP1VvbS851sNXd_5k4s/edit?usp=sharing" style={{ color: '#000', marginRight: '1rem' }}>Google Docs</a>
+          <a href="https://drive.google.com/file/d/1b3e7EwDKGWXI6iElcZBnwd_FXuBkg3wJ/view?usp=sharing" style={{ color: '#000' }}>PDF</a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+<ContactOption3 />

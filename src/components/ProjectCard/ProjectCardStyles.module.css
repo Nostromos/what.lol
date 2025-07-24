@@ -121,3 +121,36 @@
 .showMoreButton:hover {
   color: var(--ifm-color-info-contrast-background);
 }
+
+/* Dark mode styles */
+[data-theme='dark'] .card {
+  --ifm-card-background-color: #242526;
+  --ifm-card-border-color: #3e4042;
+  --ifm-global-shadow-lw: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --ifm-heading-color: #e3e3e3;
+  --ifm-color-secondary-darkest: #ccd0d5;
+  --ifm-color-secondary-contrast-background: #444950;
+  --ifm-color-secondary-contrast-foreground: #dadde1;
+  --ifm-color-success-contrast-background: #1e4620;
+  --ifm-color-success-contrast-foreground: #55d667;
+  --ifm-color-info-contrast-background: #1c3a57;
+  --ifm-color-info-contrast-foreground: #4cb3ff;
+}
+
+[data-theme='dark'] .cardStatus--ideation {
+  background-color: #663399;
+  color: #dda0dd;
+}
+
+[data-theme='dark'] .cardDescription {
+  color: var(--ifm-color-secondary-darkest);
+}
+
+[data-theme='dark'] .showMoreButton {
+  color: var(--ifm-color-info-contrast-foreground);
+}
+
+[data-theme='dark'] .showMoreButton:hover {
+  color: #70c3ff;
+}

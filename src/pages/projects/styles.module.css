@@ -43,3 +43,26 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
 }
+
+/* Dark mode styles */
+[data-theme='dark'] .filterButton {
+  background-color: #242526;
+  border-color: #3e4042;
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .filterButton:hover {
+  background-color: #3a3b3c;
+  border-color: #4a4b4c;
+}
+
+[data-theme='dark'] .filterButtonActive {
+  background-color: #25c2a0;
+  color: #1a1a1a;
+  border-color: #25c2a0;
+}
+
+[data-theme='dark'] .filterButtonActive:hover {
+  background-color: #21af90;
+  border-color: #21af90;
+}
