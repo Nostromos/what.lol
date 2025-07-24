@@ -53,7 +53,24 @@
   font-style: normal;
 }
 
+/* Announcement bar styles for light mode */
+div[role='banner'] {
+  background-color: #D9EAFD;
+  color: #091E42;
+}
+
+/* Announcement bar styles for dark mode */
 [data-theme='dark'] div[role='banner'] {
-  background-color: #A2AFBD;
-  color: white;
+  background-color: #1e3a5f;
+  color: #e6f2ff;
+}
+
+/* Ensure links in announcement bar are visible in both themes */
+div[role='banner'] a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+[data-theme='dark'] div[role='banner'] a {
+  color: #66b3ff;
 }

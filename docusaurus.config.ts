@@ -55,12 +55,10 @@ const config: Config = {
       searchPagePath: 'search',
       insights: true,
     },
-    // announcementBar: {
-    //   id: 'looking-for-work',
-    //   content: '🎉 I\'m looking for a new role! More information <a rel ="noopener noreferrer" href="/blog/what-im-looking-for">here</a>... 🎁',
-    //   backgroundColor: '#D9EAFD',
-    //   textColor: '#091E42',
-    // },
+    announcementBar: {
+      id: 'looking-for-work',
+      content: '🎉 I\'m looking for a new role! More information <a rel ="noopener noreferrer" href="/blog/what-im-looking-for">here</a>... 🎁',
+    },
     image: 'img/social-card.jpeg',
     navbar: {
       title: 'MM',
