@@ -176,8 +176,8 @@ export default function ProjectsPage(): ReactNode {
           {/* Card grid: Displays filtered project cards */}
           <div className={styles.cardGrid}>
             {filteredCards.map((card, index) => (
-              <Link to={`/docs/${card.docsUrl}`}>
-                <ProjectCard key={index} {...card} />
+              <Link key={index} to={`/docs/${card.docsUrl}`}>
+                <ProjectCard {...card} />
               </Link>
             ))}
           </div>
