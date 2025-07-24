@@ -47,6 +47,10 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'keywords', content: 'personal site, blog' },
+      { name: 'twitter:card', content: 'summary_large_image'}
+    ],
     algolia: {
       appId: '6ACQVW8CXH',
       apiKey: 'c4e088eb1b9f7e99ab9828ef7280822d',
