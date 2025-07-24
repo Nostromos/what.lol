@@ -18,3 +18,13 @@
   margin: 0 0.25em 0 0;
   font-family: monospace;
 }
+
+/* Dark mode styles */
+[data-theme='dark'] .container {
+  background-color: #444950;
+  border: 1px solid #5a5f66;
+}
+
+[data-theme='dark'] .logoText {
+  color: #dadde1;
+}

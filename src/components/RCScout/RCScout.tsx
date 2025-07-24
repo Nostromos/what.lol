@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import styles from './RCScout.module.css';
 
 export default function RCScout() {
   useEffect(() => {
@@ -15,5 +16,5 @@ export default function RCScout() {
   }, []);
 
   // Leave an empty container for the widget to hydrate
-  return <div className="rc-scout" />;
+  return <div className={`rc-scout ${styles.rcScoutContainer}`} />;
 }

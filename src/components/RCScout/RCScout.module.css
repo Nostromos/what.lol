@@ -1,0 +1,59 @@
+.rcScoutContainer {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Override all possible selectors the external script might use */
+.rcScoutContainer a,
+.rcScoutContainer a:link,
+.rcScoutContainer a:visited,
+.rc-scout a,
+.rc-scout a:link,
+.rc-scout a:visited,
+div.rc-scout a,
+div.rc-scout a:link,
+div.rc-scout a:visited {
+  color: #2e8555 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  text-decoration-line: none !important;
+}
+
+.rcScoutContainer a:hover,
+.rcScoutContainer a:active,
+.rc-scout a:hover,
+.rc-scout a:active,
+div.rc-scout a:hover,
+div.rc-scout a:active {
+  color: #29784c !important;
+  text-decoration: underline !important;
+  text-decoration-line: underline !important;
+}
+
+/* Dark mode with explicit colors */
+[data-theme='dark'] .rcScoutContainer a,
+[data-theme='dark'] .rcScoutContainer a:link,
+[data-theme='dark'] .rcScoutContainer a:visited,
+[data-theme='dark'] .rc-scout a,
+[data-theme='dark'] .rc-scout a:link,
+[data-theme='dark'] .rc-scout a:visited,
+[data-theme='dark'] div.rc-scout a,
+[data-theme='dark'] div.rc-scout a:link,
+[data-theme='dark'] div.rc-scout a:visited {
+  color: #25c2a0 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  text-decoration-line: none !important;
+}
+
+[data-theme='dark'] .rcScoutContainer a:hover,
+[data-theme='dark'] .rcScoutContainer a:active,
+[data-theme='dark'] .rc-scout a:hover,
+[data-theme='dark'] .rc-scout a:active,
+[data-theme='dark'] div.rc-scout a:hover,
+[data-theme='dark'] div.rc-scout a:active {
+  color: #21af90 !important;
+  text-decoration: underline !important;
+  text-decoration-line: underline !important;
+}
