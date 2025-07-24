@@ -68,11 +68,11 @@ const cards: ProjectCardProps[] = [
   {
     image: require("@site/static/img/qli.png").default,
     tags: ["Golang", "os [Go]", "testing [Go]", "time [Go]"],
-    name: "CLI Quiz Game",
+    name: "QLI - Quiz Line Interface",
     status: "Completed" as const,
     description: "A CLI quiz game written in Go",
     link: "https://github.com/Nostromos/qli",
-    docsUrl: "cliquiz",
+    docsUrl: "qli",
   },
   {
     image: require("@site/static/img/placeholder.png").default,
