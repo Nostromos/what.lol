@@ -13,13 +13,6 @@ const config: Config = {
   organizationName: 'nostromos',
   projectName: 'what.lol',
 
-  scripts: [
-    {
-      src: 'https://www.recurse-scout.com/loader.js?t=c205b1900901fd3c5d2f15b8fda80527',
-      async: true,
-      defer: true,
-    }
-  ],
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
