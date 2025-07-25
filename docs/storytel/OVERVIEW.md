@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Exercise #3: Choose your own adventure
 
 [![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/cyoa) [![demo: ->](https://img.shields.io/badge/demo-%E2%86%92-blue.svg?style=for-the-badge)](https://gophercises.com/demos/cyoa/)
@@ -34,7 +38,7 @@ Stories will be provided via a JSON file with the following format:
         "arc": "the name of the story arc to navigate to. This will match the story-arc key at the very root of the JSON document"
       }
     ]
-  },
+  }
 }
 ```
 
@@ -58,5 +62,5 @@ A few things worth noting:
 
 As a bonus exercises you can also:
 
-1. Create a command-line version of our Choose Your Own Adventure application where stories are printed out to the terminal and options are picked via typing in numbers ("Press 1 to venture ...").
-2. Consider how you would alter your program in order to support stories starting form a story-defined arc. That is, what if all stories didn't start on an arc named `intro`? How would you redesign your program or restructure the JSON? This bonus exercises is meant to be as much of a thought exercise as an actual coding one.
+- [x] Create a command-line version of our Choose Your Own Adventure application where stories are printed out to the terminal and options are picked via typing in numbers ("Press 1 to venture ...").
+- [ ] Consider how you would alter your program in order to support stories starting form a story-defined arc. That is, what if all stories didn't start on an arc named `intro`? How would you redesign your program or restructure the JSON? This bonus exercises is meant to be as much of a thought exercise as an actual coding one.
