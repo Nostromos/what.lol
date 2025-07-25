@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_label: Exercise Description
 ---
 
 # Exercise #3: Choose your own adventure

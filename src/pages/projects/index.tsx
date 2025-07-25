@@ -75,13 +75,13 @@ const cards: ProjectCardProps[] = [
     docsUrl: "qli",
   },
   {
-    image: require("@site/static/img/placeholder.png").default,
+    image: require("@site/static/img/storytel.png").default,
     tags: ["Golang", "html/template", "encoding/json", "os [Go]"],
-    name: "Choose Your Own Adventure",
-    status: "In Progress" as const,
+    name: "Storytel",
+    status: "Completed" as const,
     description: "A Choose Your Own Adventure CLI game written in Go",
-    link: "https://github.com/Nostromos/cyoa",
-    docsUrl: "cyoa",
+    link: "https://github.com/Nostromos/storytel",
+    docsUrl: "storytel",
   },
   {
     image: require("@site/static/img/placeholder.png").default,
