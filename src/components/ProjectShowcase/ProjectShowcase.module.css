@@ -1,0 +1,302 @@
+.showcase {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+/* Hero Section */
+.hero {
+  background: var(--ifm-background-surface-color);
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+  border-radius: var(--ifm-global-radius);
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.headerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--ifm-heading-color);
+  line-height: 1;
+}
+
+.status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.status--completed {
+  background-color: var(--ifm-color-success-light);
+  color: var(--ifm-color-success-darkest);
+}
+
+.status--inProgress {
+  background-color: var(--ifm-color-warning-light);
+  color: var(--ifm-color-warning-darkest);
+}
+
+.status--abandoned {
+  background-color: var(--ifm-color-danger-light);
+  color: var(--ifm-color-danger-darkest);
+}
+
+.status--ideation {
+  background-color: var(--ifm-color-info-light);
+  color: var(--ifm-color-info-darkest);
+}
+
+.description {
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 1rem auto 2rem;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.linkButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--ifm-global-radius);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.linkButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.linkButtonSecondary {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.linkButtonSecondary:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+}
+
+.linkIcon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Carousel */
+.carouselContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.carouselButton {
+  background: var(--ifm-background-color);
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.carouselButton:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+.carouselButton svg {
+  width: 24px;
+  height: 24px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.screenshotWrapper {
+  flex: 1;
+  overflow: hidden;
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carouselDots {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--ifm-color-emphasis-300);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.dot:hover {
+  background-color: var(--ifm-color-emphasis-500);
+}
+
+.dotActive {
+  background-color: var(--ifm-color-primary);
+  transform: scale(1.2);
+}
+
+/* Details Section */
+.details {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.section p {
+  line-height: 1.8;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.featureList,
+.learningList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureList li,
+.learningList li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.featureList li::before,
+.learningList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--ifm-color-success);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .headerInfo {
+    flex-direction: column;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linkButton {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .carousel {
+    flex-direction: column;
+  }
+
+  .carouselButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,46 @@
+---
+sidebar_position: 1
+sidebar_label: Overview
+title: StoryTEL
+hide_title: true
+---
+
+import ProjectShowcase from '@site/src/components/ProjectShowcase/ProjectShowcase';
+
+<ProjectShowcase
+  title="StoryTEL"
+  description="A terminal-based choose your own adventure game built with Go, featuring beautiful TUI components and interactive storytelling."
+  longDescription="StoryTEL is an interactive story application that brings the classic 'Choose Your Own Adventure' format to the terminal. Built with Go and powered by Bubble Tea for the UI framework and Lip Gloss for styling, it offers a unique blend of modern terminal aesthetics with engaging narrative gameplay."
+  screenshots={[
+    '/img/storytel-placeholder.svg',
+    // Add more screenshots here when available
+  ]}
+  technologies={[
+    { name: 'Go', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg' },
+    { name: 'Bubble Tea', icon: '/img/bubbletea-icon.svg' },
+    { name: 'Lip Gloss', icon: '/img/lipgloss-icon.svg' },
+    { name: 'JSON', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg' },
+  ]}
+  features={[
+    'Interactive story selection menu with keyboard navigation',
+    'Beautiful terminal UI with styled text boxes and color themes',
+    'Support for custom story files in JSON format',
+    'Keyboard controls for intuitive navigation (arrow keys, j/k vim bindings)',
+    'Extensible story format allowing for complex branching narratives',
+    'Clean architecture with separated concerns (parser, TUI, types)',
+    'Automatic story detection from the stories directory',
+  ]}
+  learnings={[
+    'Building interactive terminal applications with Go and Bubble Tea framework',
+    'Implementing state management patterns in TUI applications',
+    'Creating responsive keyboard-driven interfaces',
+    'Working with JSON parsing and data structures in Go',
+    'Designing extensible file formats for content management',
+    'Terminal styling and layout techniques using Lip Gloss',
+    'Managing application architecture with clear separation of concerns',
+  ]}
+  githubUrl="https://github.com/yourusername/storytel"
+  status="Completed"
+/>
+
+To start using StoryTEL, check out the [installation guide](./getting-started) and learn about the [story format](./getting-started#story-format) to create your own adventures.
