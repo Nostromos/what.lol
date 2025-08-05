@@ -6,20 +6,15 @@
 <p align="center">
   <a href="https://docusaurus.io">
     <img alt="Docusaurus" src="https://img.shields.io/badge/Docusaurus-3ECC5F?style=for-the-badge&logo=docusaurus&logoColor=white" />
-  </a>
-  <a href="https://react.dev">
+  </a><a href="https://react.dev">
     <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  </a>
-  <a href="https://www.typescriptlang.org">
+  </a><a href="https://www.typescriptlang.org">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  </a>
-  <a href="https://tailwindcss.com">
+  </a><a href="https://tailwindcss.com">
     <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  </a>
-  <a href="https://ui.shadcn.com">
+  </a><a href="https://ui.shadcn.com">
     <img alt="shadcn/ui" src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
-  </a>
-  <a href="https://mdxjs.com">
+  </a><a href="https://mdxjs.com">
     <img alt="MDX" src="https://img.shields.io/badge/MDX-1B1F24?style=for-the-badge&logo=mdx&logoColor=white" />
   </a>
 </p>
