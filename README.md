@@ -164,7 +164,7 @@ npm run clear
 
 ## Future Enhancements
 
-- [ ] Newsletter integration
+- [ ] ~~Newsletter integration~~ (highly unlikely to do this)
 - [ ] Project demo videos
 - [ ] Interactive code snippets
 - [ ] Analytics dashboard
