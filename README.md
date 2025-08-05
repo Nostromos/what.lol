@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="/Users/figgefenk/Dev/family-meal/public/uploads/Logo.png" alt="Family Meal" />
+  <img src="./static/img/logo.png" alt="what.lol" />
 </p>
-<h1 align="center"><i>what.lol - Michael Monaghan's Portfolio</i></h1>
+<h1 align="center"><i>what.lol</i></h1>
 
 <p align="center">
   <a href="https://docusaurus.io">
@@ -26,7 +26,7 @@
 
 ## Overview
 
-Michael Monaghan's personal portfolio and blog built with Docusaurus 3.8.1. A static site showcasing various projects, technical blog posts, and insights on career transitions in software development. Visit live at [what.lol](http://what.lol).
+My personal portfolio and blog built with Docusaurus 3.8.1. A static site showcasing various projects, technical blog posts, and insights on career transitions in software development. Visit live at [what.lol](http://what.lol).
 
 ## Features
 
@@ -51,13 +51,13 @@ Michael Monaghan's personal portfolio and blog built with Docusaurus 3.8.1. A st
 ## Requirements
 
 - Node.js 18.0 or higher
-- npm or yarn package manager
+- npm or pnpm
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/what.lol.git
+git clone https://github.com/nostromos/what.lol.git
 cd what.lol
 ```
 
@@ -109,29 +109,29 @@ The application will be available at `http://localhost:3000`
 what.lol/
 ├── blog/                  # Blog posts in Markdown
 ├── docs/                  # Project documentation
-│   ├── dashboard-tifco/  # TIFCO Dashboard docs
-│   ├── ggob/             # GGOB project docs
-│   ├── notion-clone/     # Notion Clone docs
-│   ├── qli/              # QLI project docs
-│   └── RCScout/          # RC Scout docs
+│   ├── dashboard-tifco/   # TIFCO Dashboard docs
+│   ├── ggob/              # GGOB project docs
+│   ├── notion-clone/      # Notion Clone docs
+│   ├── qli/               # QLI project docs
+│   └── RCScout/           # RC Scout docs
 ├── src/                   # Source code
-│   ├── components/       # React components
+│   ├── components/        # React components
 │   │   ├── EnhancedLogo.tsx
 │   │   ├── ProjectCard.tsx
 │   │   ├── RCScout.tsx
 │   │   ├── TagPill.tsx
-│   │   └── ui/          # shadcn/ui components
-│   ├── css/             # Global styles
-│   ├── lib/             # Utilities
-│   └── pages/           # MDX pages
-│       ├── index.mdx    # Homepage
-│       ├── about.mdx    # About page
-│       ├── contact.mdx  # Contact page
-│       └── projects.mdx # Projects showcase
-├── static/              # Static assets
-├── docusaurus.config.ts # Site configuration
-├── sidebars.ts         # Sidebar config
-└── CLAUDE.md          # AI assistant context
+│   │   └── ui/            # shadcn/ui components
+│   ├── css/               # Global styles
+│   ├── lib/               # Utilities
+│   └── pages/             # MDX pages
+│       ├── index.mdx      # Homepage
+│       ├── about.mdx      # About page
+│       ├── contact.mdx    # Contact page
+│       └── projects.mdx   # Projects showcase
+├── static/                # Static assets
+├── docusaurus.config.ts   # Site configuration
+├── sidebars.ts            # Sidebar config
+└── CLAUDE.md              # AI assistant context
 ```
 
 ## Development
@@ -176,7 +176,6 @@ npm run clear
 
 ## Future Enhancements
 
-- [ ] Comments system for blog posts
 - [ ] Newsletter integration
 - [ ] Project demo videos
 - [ ] Interactive code snippets
