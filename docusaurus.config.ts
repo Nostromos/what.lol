@@ -1,6 +1,8 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import tailwindPlugin from './plugins/tailwind-config.cjs';
+import aliasPlugin from './plugins/alias-config.cjs';
 
 const config: Config = {
   title: 'Michael Monaghan',
@@ -22,6 +24,7 @@ const config: Config = {
     locales: ['en'],
   },
   themes: ['@saucelabs/theme-github-codeblock'],
+  plugins: [tailwindPlugin, aliasPlugin],
   presets: [
     [
       'classic',
@@ -49,7 +52,7 @@ const config: Config = {
   themeConfig: {
     metadata: [
       { name: 'keywords', content: 'personal site, blog' },
-      { name: 'twitter:card', content: 'summary_large_image'}
+      { name: 'twitter:card', content: 'summary_large_image' }
     ],
     algolia: {
       appId: '6ACQVW8CXH',
