@@ -59,17 +59,7 @@ npm install
 npm start
 ```
 
-The application will be available at `http://localhost:3000`
-
-## Usage
-
-### Getting Started
-
-1. **Explore Projects**: Browse the project showcase to see featured work
-2. **Read Blog Posts**: Discover technical insights and career journey articles
-3. **View Documentation**: Access detailed documentation for each project
-4. **Search Content**: Use Algolia search to find specific topics
-5. **Contact**: Reach out through the contact page for inquiries
+Visit `http://localhost:3000` in your browser of choice.
 
 ### Key Features
 
