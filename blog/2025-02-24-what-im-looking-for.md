@@ -2,7 +2,7 @@
 slug: what-im-looking-for
 title: What I'm Looking For
 authors: mike
-draft: false
+draft: true
 tags: 
   - career
   - job

@@ -49,7 +49,7 @@ const config: Config = {
   themeConfig: {
     metadata: [
       { name: 'keywords', content: 'personal site, blog' },
-      { name: 'twitter:card', content: 'summary_large_image'}
+      { name: 'twitter:card', content: 'summary_large_image' }
     ],
     algolia: {
       appId: '6ACQVW8CXH',
@@ -61,7 +61,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'looking-for-work',
-      content: '🎉 I\'m looking for a new role! More information <a rel ="noopener noreferrer" href="/blog/what-im-looking-for">here</a>... 🎁',
+      content: '🎉 I\'m looking for a new role! Reach out <a rel ="noopener noreferrer" href="/contact">here</a>... 🎁',
     },
     image: 'img/social-card.jpeg',
     navbar: {
