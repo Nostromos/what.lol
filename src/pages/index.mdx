@@ -1,20 +1,31 @@
 ---
-title: Welcome
-description: The home page of my personal web site.
-keywords: [me, you, friends]
-hide_table_of_contents: true
+title: About
 ---
 
-import EnhancedLogo from '@site/src/components/EnhancedLogo/EnhancedLogo';
-import Link from '@docusaurus/Link';
-import RCScout from '@site/src/components/RCScout/RCScout';
+import React from 'react';
+import EnhancedLogo from '../components/EnhancedLogo/EnhancedLogo'
 
-# Michael Monaghan
+export const ResumeSection = () => {
+  return (
+    <div style={{marginBottom: '2rem'}}>
+      <div style={{display: 'flex', gap: '1rem', alignItems: 'center'}}>
+        <strong>Resume:</strong>
+        <a href="https://docs.google.com/document/d/1hmPClCKn0F2TIkFukE8I10qzVP1VvbS851sNXd_5k4s/edit?usp=sharing">Google Docs</a>
+        <span>•</span>
+        <a href="https://drive.google.com/file/d/1b3e7EwDKGWXI6iElcZBnwd_FXuBkg3wJ/view?usp=sharing">PDF</a>
+      </div>
+    </div>
+  );
+};
 
-Hi, I'm a full stack developer at <EnhancedLogo source="https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65e1ddbb609602642873b043_sparkles-three%2C%20ai%203%20stars%2C%20sparkles%2C%20%E2%9C%A8.svg" imgAlt="Harmonic logo" logoText=" Harmonic" url="https://harmonic.ai"/>, where I build tools that help VCs discover and invest in promising startups. I work across the stack with React, TypeScript, and Go to build UIs & systems for investor intelligence. 
+<ResumeSection />
+
+# About Me
+
+I'm a full stack developer at <EnhancedLogo source="https://cdn.prod.website-files.com/6107b1101d4d3e748743f234/65e1ddbb609602642873b043_sparkles-three%2C%20ai%203%20stars%2C%20sparkles%2C%20%E2%9C%A8.svg" imgAlt="Harmonic logo" logoText=" Harmonic" url="https://harmonic.ai"/>, where I build tools that help VCs discover and invest in promising startups. I work across the stack with React, TypeScript, and Go to build UIs & systems for investor intelligence. 
 
 I used to work at <EnhancedLogo source={require("@site/static/img/Screenshot 2025-07-24 at 12.09.43 PM (2).png").default} imgAlt="Datadog logo" logoText=" Datadog" url="https://datadog.com"/>, <EnhancedLogo source={require("@site/static/img/Color-Etsy-Logo.ico").default} imgAlt="Etsy Logo" logoText="Etsy" url="https://etsy.com" />, <EnhancedLogo source={require("@site/static/img/Blue-Apron-Logo.ico").default} imgAlt="Blue Apron Logo" logoText="Blue Apron" url="https://blueapron.com" />, and <EnhancedLogo imgAlt="No Logo Provided" logoText="InterviewJet" url="https://interviewjet.com" />
 
 Outside of programming, I enjoy spending time with my family & friends, playing squash or pickleball, cooking, and diving into new hobbies.
 
-I live in the Red Hook neighborhood of NYC, so if you're around [reach out](./contact/).
+I live in [Red Hook]('https://www.nytimes.com/2022/03/03/nyregion/red-hook-brooklyn.html').
