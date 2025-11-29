@@ -59,10 +59,10 @@ const config: Config = {
       searchPagePath: 'search',
       insights: true,
     },
-    announcementBar: {
-      id: 'looking-for-work',
-      content: '🎉 I\'m looking for a new role! Reach out <a rel ="noopener noreferrer" href="/contact">here</a>... 🎁',
-    },
+    // announcementBar: {
+    //   id: 'looking-for-work',
+    //   content: '🎉 I\'m looking for a new role! Reach out <a rel ="noopener noreferrer" href="/contact">here</a>... 🎁',
+    // },
     image: 'img/social-card.jpeg',
     navbar: {
       title: 'MM',
