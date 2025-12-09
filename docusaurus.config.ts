@@ -74,7 +74,7 @@ const config: Config = {
       },
       items: [
         { to: '/', label: 'About', position: 'left' },
-        { to: '/blog', label: 'Writing', position: 'left' },
+        { to: '/blog', label: 'Writing', position: 'left', className: 'navbar__item--disabled' },
         { to: "/projects", label: 'Projects', position: 'left' },
         {
           href: 'mailto:michael@monaghan.nyc',
