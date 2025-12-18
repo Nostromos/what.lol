@@ -74,4 +74,4 @@ I'm less motivated by benefits beyond health insurance and PTO but would *love* 
 
 ## How to get in touch
 
-You can see all my contact info in my [Contact](/contact) page. Please reach out!
+You can reach me at [michael@monaghan.nyc](mailto:michael@monaghan.nyc). Please reach out!
