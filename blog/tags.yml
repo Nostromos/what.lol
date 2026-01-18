@@ -62,3 +62,33 @@ new role:
   label: New Role
   permalink: /new-role
   description: Working in a new role. How to establish yourself, learn what you need to know, and get things done.
+
+families:
+  label: Families
+  permalink: /families
+  description: Family life, dynamics, and relationships.
+
+children:
+  label: Children
+  permalink: /children
+  description: Raising kids, parenting, and childhood experiences.
+
+relationships:
+  label: Relationships
+  permalink: /relationships
+  description: Personal relationships and connections with others.
+
+wife:
+  label: Wife
+  permalink: /wife
+  description: Marriage and partnership.
+
+christmas:
+  label: Christmas
+  permalink: /christmas
+  description: Christmas traditions, memories, and celebrations.
+
+holidays:
+  label: Holidays
+  permalink: /holidays
+  description: Holiday traditions and celebrations.
